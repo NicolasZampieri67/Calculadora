@@ -4,6 +4,7 @@
  */
 package operacoes;
 
+import java.util.Scanner;
 
 
 public class Subtracao {
