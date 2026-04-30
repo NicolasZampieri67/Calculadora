@@ -4,14 +4,13 @@
  */
 package operacoes;
 
-import java.util.Scanner;
+import numeros.EntradaNumeros;
 
 
 public class Subtracao {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        x = scanner.nextInt();
-        y = scanner.nextInt();
-        System.out.println(x / y);
+        EntradaNumeros entradaNumeros = new EntradaNumeros();
+        entradaNumeros.pedirNumeros();
+        System.out.println(entradaNumeros.x / entradaNumeros.y);
     }
 }
